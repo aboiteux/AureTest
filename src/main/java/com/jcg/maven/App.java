@@ -41,4 +41,20 @@ public class App
         target =- num;  // Noncompliant; target = -3. Is that really what's meant?
         target =+ num; // Noncompliant; target = 3
     }
+
+    private final static String CODE = "bounteous";
+
+    public String calculateCode() {
+        doTheThing();
+        return CODE;
+    }
+
+    private void doTheThing() {
+        System.out.println("Doing the thing");
+    }
+
+    public String getName() {  // Noncompliant
+        doTheThing();
+        return CODE;
+    }
 }
