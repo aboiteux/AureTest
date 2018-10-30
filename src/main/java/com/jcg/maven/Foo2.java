@@ -9,4 +9,18 @@ public class Foo2 {
         return a / b;
     }
 
+    public void aMethod(){
+        private String primary;
+
+        primary = null;
+
+        int j;
+        while (true) {
+          j++;
+        }
+
+    }
+
+
+
 }
