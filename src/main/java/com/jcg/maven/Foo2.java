@@ -10,14 +10,14 @@ public class Foo2 {
     }
 
     public void aMethod(){
-        private String primary;
+        String primary;
 
-        primary = null;
+        primary = null;
 
-        int j;
-        while (true) {
-          j++;
-        }
+        int j;
+        while (true) {
+        j++;
+    }
 
     }
 
