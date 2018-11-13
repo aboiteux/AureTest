@@ -7,6 +7,8 @@ public class Foo2 {
             throw new UnsupportedOperationException("Can't divide by zero!");
         }
         return a / b;
+//some comments
+
     }
 
     public void aMethod(){
