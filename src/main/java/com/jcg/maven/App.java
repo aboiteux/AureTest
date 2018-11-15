@@ -10,4 +10,9 @@ public class App
     {
         System.out.println( "Hello World! How are you ?" );
     }
+
+    public void notCovered() {
+        System.out.println("notCovered");
+    }
+
 }
